@@ -1,1 +1,2 @@
-print('it works!')
+print('it work!')
+print("10")
