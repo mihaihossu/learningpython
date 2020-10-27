@@ -27,10 +27,10 @@ while True:
     tabel = Table(numar_randuri, numar_coloane)
     print("\n\nAcesta este tabelul creat, completat automat in mod aleatoriu cu una dintre culorile Red, Green sau Blue\n")
     tabel.print_table()
-    print("\nCare rand vrei sa vezi individual?")
+    print("\nCare rand vrei sa-l vezi individual?")
     rand = int(input("\nRandul...")) - 1
     print(tabel.content[rand])
-    print("\nCare coloana din randul {} vrei sa vezi individual?".format(rand))
+    print("\nCare coloana din randul {} vrei sa o vezi individual?".format(rand))
     coloana = int(input("\nCare coloana...")) - 1
     randul_selectat = tabel.content[rand]
     print(randul_selectat[coloana])
