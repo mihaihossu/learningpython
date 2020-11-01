@@ -19,6 +19,9 @@ class Table:
     def print_table(self):
         for i in range(self.rows):
             print(self.content[i])
+    
+    print("this")
+    
 
 while True:
     print("Incepe prin stabilirea numarului de randuri si coloane pentru tabel...")
